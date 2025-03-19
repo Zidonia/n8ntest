@@ -103,5 +103,9 @@
       "vue-tsc@2.2.8": "patches/vue-tsc@2.2.8.patch",
       "eslint-plugin-n8n-local-rules": "patches/eslint-plugin-n8n-local-rules.patch"
     }
+    "engines": {
+    "node": ">=18.0.0 <20.0.0",
+    "pnpm": ">=10.2.1"
+  },
   }
 }
